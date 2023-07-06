@@ -6,9 +6,9 @@ Logger is a simplistic log handling library. Read the logger.h file for more inf
 
 In the source directory, run the following commands:
 
-`meson setup builddir`
+`meson setup builddir --buildtype release`
 
-`meson compile -C builddir --buildtype release`
+`meson compile -C builddir`
 
 `meson install -C builddir` (optional)
 
